@@ -1,0 +1,21 @@
+CAPSULE CITY — PWA 5.20
+==========================
+Questa è la versione installabile della v5.20 approvata.
+Sono stati aggiunti soltanto i file necessari a PWA e offline.
+
+PUBBLICAZIONE
+1. Carica TUTTI i file di questa cartella nella stessa directory su un sito HTTPS
+   (es. GitHub Pages).
+2. Apri il link https://.../index.html una prima volta con connessione attiva.
+3. Su Android/Chrome: menu -> Installa app (o Aggiungi alla schermata Home).
+   Su iPhone/Safari: Condividi -> Aggiungi a schermata Home.
+4. Dopo il primo caricamento completo, il service worker memorizza l'app.
+   Attendi che l'installazione offline si completi prima di disconnetterti.
+5. In seguito l'app si apre e si usa senza connessione.
+
+NOTA IMPORTANTE: aprire index.html direttamente dalla cartella Download
+NON attiva la PWA né il service worker. Serve HTTPS (o localhost per test).
+
+L'app utilizza font Google opzionali, con fallback locali se offline.
+Le immagini della guida sono già incorporate nell'HTML.
+Il funzionamento delle meccaniche di gioco NON è stato alterato.
